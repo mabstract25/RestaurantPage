@@ -29,4 +29,9 @@ button:hover {
 
 .container {
     background-color: peachpuff;
+    height: 100vh;
+}
+
+.restaurantimg {
+    width: 50%;    
 }
