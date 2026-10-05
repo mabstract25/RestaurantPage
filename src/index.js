@@ -1,3 +1,5 @@
 import "./styles.css";
+import createAbout from "./about.js";
 
-console.log("HI!");
+
+createAbout();
