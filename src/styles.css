@@ -5,7 +5,7 @@
 }
 
 .header {
-    padding: 1em;
+    padding: 1em 0 0 0 ;
 }
 
 .nav {
@@ -17,7 +17,7 @@
 button {
     padding: 0 1.5em;
     font-size: 1.5em;
-    border-radius: 1em;
+    border-radius: 1em 1em 0 0;
     border: 0;
     background-color: white;
 }
@@ -30,8 +30,19 @@ button:hover {
 .container {
     background-color: peachpuff;
     height: 100vh;
+    padding: 0 25%;
 }
 
 .restaurantimg {
-    width: 50%;    
+    width: 100%;    
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    background-color: white;
+
 }
