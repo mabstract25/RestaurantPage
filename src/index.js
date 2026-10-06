@@ -2,6 +2,7 @@ import "./styles.css";
 import createAbout from "./about.js";
 import createMenu from "./menu.js";
 import createContact from "./contact.js";
+import menuImages from "./menu.js";
 
 const aboutButton = document.getElementById('aboutbutton');
 const menuButton = document.getElementById('menubutton');
